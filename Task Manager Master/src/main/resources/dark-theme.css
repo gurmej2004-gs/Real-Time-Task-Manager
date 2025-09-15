@@ -1,0 +1,86 @@
+/* Base dark theme */
+.root {
+    -fx-base: #2b2b2b;
+    -fx-background: #1e1e1e;
+    -fx-text-fill: #eeeeee;
+    -fx-font-size: 13px;
+    -fx-font-family: "Segoe UI", sans-serif;
+}
+
+/* Stat cards / panes */
+.stat-card {
+    -fx-background-color: #2e2e2e;
+    -fx-border-color: #444;
+    -fx-border-radius: 10;
+    -fx-background-radius: 10;
+    -fx-padding: 10;
+}
+
+/* Label fix */
+.label {
+    -fx-text-fill: #eeeeee;
+}
+
+/* Button styling */
+.button {
+    -fx-text-fill: #ffffff;
+    -fx-background-color: #3a3a3a;
+    -fx-border-color: #666;
+}
+.button:hover {
+    -fx-background-color: #444;
+}
+
+/* Text fields */
+.text-field {
+    -fx-background-color: #333;
+    -fx-text-fill: #ffffff;
+    -fx-border-color: #555;
+}
+
+/* Charts (PieChart, LineChart) */
+.chart {
+    -fx-text-fill: #ffffff;
+    -fx-background-color: transparent;
+}
+
+.chart-title,
+.chart-legend,
+.chart-legend-item-symbol,
+.axis-label,
+.axis-tick-label {
+    -fx-text-fill: #ffffff;
+}
+
+.chart-plot-background {
+    -fx-background-color: #2a2a2a;
+}
+
+.pie-chart-label {
+    -fx-text-fill: #ffffff;
+}
+
+/* Table & list views */
+.table-view, .list-view {
+    -fx-control-inner-background: #2e2e2e;
+    -fx-text-fill: #ffffff;
+    -fx-background-insets: 0;
+    -fx-border-color: #444;
+}
+
+.table-view .column-header-background {
+    -fx-background-color: #333;
+}
+
+.table-row-cell {
+    -fx-background-color: transparent;
+}
+.table-row-cell:selected {
+    -fx-background-color: #444;
+}
+
+/* Tooltip fix if needed */
+.tooltip {
+    -fx-background-color: #444;
+    -fx-text-fill: #fff;
+}
